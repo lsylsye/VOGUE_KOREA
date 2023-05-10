@@ -256,14 +256,6 @@ span {
     }
 }
 
-/******* cont02 *******/
-/******* pashion *******/
-/******* beauty *******/
-/******* cont05 *******/
-/******* cont06 *******/
-/******* footer *******/
-
-
 /* 1560px 이하일때 스타일 변경 */
 @media all and (max-width:1560px) {
     html {
@@ -1203,7 +1195,7 @@ span {
     }
 
     .cont01 .inner .list .item_wrap .item p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .cont01 .inner .list .item_wrap .item h3 {
@@ -1212,7 +1204,7 @@ span {
     }
 
     .cont01 .inner .list .item_wrap .item span {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .cont01 .inner .list .item_wrap .item:first-child {
@@ -1231,14 +1223,14 @@ span {
         margin-bottom: 10px;
     }
     .cont05 .life {
-        margin-top: 20px;
+        margin-top: 15px;
     }
     /******* cont06 *******/
     .cont06 h1 {
         margin-bottom: 10px;
     }
     .cont06 .item_wrap {
-        margin-top: 20px;
+        margin-top: 15px;
     }
     .cont06 .item_wrap .item {
         height: 140px;
@@ -1262,9 +1254,6 @@ span {
         line-height: 1.2;
     }
     /******* main_visual *******/
-    .main_visual .inner .main figure {
-        height: 60vh;
-    }
     .swiper-slide:nth-child(1) .inner .main figure::after {
         width: 312px;
         height: 95px;
