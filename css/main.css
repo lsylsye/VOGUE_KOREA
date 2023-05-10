@@ -276,6 +276,9 @@ header .inner .center ul li:last-child {
     font-size: 2.8rem;
     line-height: 1.3;
 }
+.pashion .inner .list .item div span {
+    line-height: 1.2;
+}
 .pashion .inner .list .item:nth-child(2),
 .pashion .inner .list .item:nth-child(4),
 .pashion .inner .list .item:nth-child(6),
