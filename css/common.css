@@ -1147,70 +1147,58 @@ span {
         width: 120px;
         line-height: 110px;
     }
-
     header .inner .left li {
         margin-right: 15px;
-        line-height: 110px;
+        line-height: 120px;
     }
-
     header .inner .left li:last-of-type {
-        line-height: 115px;
+        line-height: 125px;
     }
-
     /******* main_visual *******/
+    .main_visual .inner .main figure {
+        height: 74vh;
+    }
     .swiper-slide:nth-child(1) .inner .main figure::after {
         width: 329px;
         height: 100px;
     }
-
     .swiper-slide:nth-child(2) .inner .main figure::after {
         width: 232px;
         height: 100px;
     }
-
     .swiper-slide:nth-child(3) .inner .main figure::after {
         width: 273px;
         height: 100px;
     }
-
     /******* cont01 *******/
     .cont01 .inner .list h1 {
         margin-bottom: 35px;
     }
-
     .cont01 .inner .main {
         display: none;
     }
-
     .cont01 .inner .list .item_wrap {
         width: 100%;
     }
-
     .cont01 .inner .list .item_wrap .item figure {
         height: 35vh;
     }
-
     .cont01 .inner .list .item_wrap .item div {
         text-align: center;
     }
-
     .cont01 .inner .list .item_wrap .item p {
         font-size: 14px;
     }
-
     .cont01 .inner .list .item_wrap .item h3 {
         font-size: 28px;
         margin: 5px 0 15px;
     }
-
     .cont01 .inner .list .item_wrap .item span {
         font-size: 14px;
     }
-
     .cont01 .inner .list .item_wrap .item:first-child {
         margin-bottom: 40px;
     }
-
     /******* pashion *******/
     .pashion .inner .main {
         height: 200px;
