@@ -1087,27 +1087,27 @@ span {
     .pashion {
         height: 750px;
     }
-
     .pashion .inner .main {
         height: 240px;
     }
-
     .pashion .inner .main div {
         height: 100%;
     }
-
+    .pashion .inner .main div::after {
+        background-color: rgb(0, 0, 0, 0.5);
+    }
     .pashion .inner .main h4 {
         top: 30%;
         font-size: 44px;
     }
-
     .pashion .inner .list {
         top: 48%;
     }
-
     .pashion .inner .list .item div h3 {
         font-size: 18px;
     }
+    
+
     /******* cont06 *******/
     .cont06 .item_wrap .item div p {
         font-size: 13px;
