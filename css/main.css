@@ -303,6 +303,7 @@ header .inner .center ul li:last-child {
 }
 .cont05 h1 {
     text-align: center;
+    margin-bottom: 20px;
 }
 .cont05 .inner {
     display: flex;
@@ -316,7 +317,7 @@ header .inner .center ul li:last-child {
     cursor: pointer;
 }
 .cont05 .life {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 .cont05 .life .swiper-wrapper {
     display: flex;
@@ -343,6 +344,7 @@ header .inner .center ul li:last-child {
 /*******💌cont06💌*******/
 .cont06 h1 {
     text-align: center;
+    margin-bottom: 25px;
 }
 .cont06 .inner {
     display: flex;
@@ -360,7 +362,7 @@ header .inner .center ul li:last-child {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .cont06 .item_wrap .item {
     width: calc(100% / 3);

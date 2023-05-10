@@ -599,37 +599,24 @@ span {
         top: 0.5px;
     }
 
-    .cont05 .life {
-        margin-top: 20px;
-    }
-
-    /******* cont06 *******/
+    /******* cont06 ******/
     .cont06 {
         margin-top: 0;
     }
-
     .cont06 .inner a::after {
         top: 0.5px;
     }
-
-    .cont06 .item_wrap {
-        margin-top: 20px;
-    }
-
     .cont06 .item_wrap .item div p {
         font-size: 16px;
     }
-
     .cont06 .item_wrap .item div h3 {
         font-size: 20px;
     }
-
     /******* footer *******/
     footer {
         height: 350px;
         background-image: url("");
     }
-
     footer .bg {
         height: 100%;
     }
@@ -1028,34 +1015,17 @@ span {
     .cont05 {
         margin: 80px auto;
     }
-
     .cont05 .life .swiper-wrapper .swiper-slide {
         width: 50%;
     }
-
     /******* cont06 *******/
-    .cont05 .life {
-        margin-top: 15px;
-    }
-
-    /******* cont06 *******/
-    .cont06 {
-        margin-top: 0;
-    }
-
-    .cont06 .item_wrap {
-        margin-top: 15px;
-    }
-
     .cont06 .item_wrap .item {
         width: calc(100% / 2);
     }
-
     .cont06 .item_wrap .item:nth-child(3),
     .cont06 .item_wrap .item:nth-child(6) {
         display: none;
     }
-
     /******* footer *******/
     footer {
         height: 300px;
@@ -1146,16 +1116,7 @@ span {
     .pashion .inner .list .item div h3 {
         font-size: 18px;
     }
-
-    .cont05 .life {
-        margin-top: 10px;
-    }
-
     /******* cont06 *******/
-    .cont06 .item_wrap {
-        margin-top: 10px;
-    }
-
     .cont06 .item_wrap .item div p {
         font-size: 13px;
     }
@@ -1201,14 +1162,10 @@ span {
     }
 
     header .inner .left li:last-of-type {
-        line-height: 116px;
+        line-height: 115px;
     }
 
     /******* main_visual *******/
-    .main_visual .inner .main figure {
-        height: 70vh;
-    }
-
     .swiper-slide:nth-child(1) .inner .main figure::after {
         width: 329px;
         height: 100px;
@@ -1246,16 +1203,16 @@ span {
     }
 
     .cont01 .inner .list .item_wrap .item p {
-        font-size: 15px;
-        margin-bottom: 5px;
+        font-size: 16px;
     }
 
     .cont01 .inner .list .item_wrap .item h3 {
-        font-size: 24px;
+        font-size: 28px;
+        margin: 5px 0 15px;
     }
 
     .cont01 .inner .list .item_wrap .item span {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .cont01 .inner .list .item_wrap .item:first-child {
@@ -1266,13 +1223,23 @@ span {
     .pashion .inner .main {
         height: 200px;
     }
-
     .pashion .inner .main h4 {
         top: 30%;
         font-size: 36px;
     }
-
+    .cont05 h1 {
+        margin-bottom: 10px;
+    }
+    .cont05 .life {
+        margin-top: 20px;
+    }
     /******* cont06 *******/
+    .cont06 h1 {
+        margin-bottom: 10px;
+    }
+    .cont06 .item_wrap {
+        margin-top: 20px;
+    }
     .cont06 .item_wrap .item {
         height: 140px;
     }
@@ -1293,13 +1260,6 @@ span {
     }
     html h1 {
         line-height: 1.2;
-    }
-    /******* header *******/
-    header .inner .left {
-        line-height: 90px;
-    }
-    header .inner .left li:last-of-type {
-        line-height: 94px;
     }
     /******* main_visual *******/
     .main_visual .inner .main figure {
