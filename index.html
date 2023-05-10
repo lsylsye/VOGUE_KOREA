@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>보그코리아</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/common.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        $(function () {
+            var swiper = new Swiper(".main_visual", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 5500,
+                    disableOnInteraction: false,
+                },
+            }); //.main visual 
+
+            var swiper = new Swiper(".life", {
+                slidesPerView: 1.5,
+                spaceBetween: 10,
+                breakpoints: {
+                    414: {
+                        slidesPerView: 2,
+                        spaceBetween: 5,
+                    },
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 10,
+                    },
+                    767: {
+                        slidesPerView: 2.2,
+                        spaceBetween: 10,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 15,
+                    },
+                    1280: {
+                        slidesPerView: 4,
+                        spaceBetween: 20,
+                    },
+                    1560: {
+                        slidesPerView: 4,
+                        spaceBetween: 25,
+                    },
+                    1920: {
+                        slidesPerView: 4.5,
+                        spaceBetween: 30,
+                    }
+                },
+            }); //life
+
+        });
+
+    </script>
+</head>
+
+<body>
+    <!-- ******💌header💌****** -->
+    <header>
+        <div class="inner">
+            <ul class="left">
+                <li>
+                    <a href="#">
+                        <img src="img/icon_menu.png" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/icon_language.png" alt="" />
+                    </a>
+                </li>
+            </ul> <!-- .leftend -->
+            <div class="center">
+                <figure>
+                    <a href="#">
+                        <img src="img/logo.svg" alt="" />
+                    </a>
+                </figure>
+                <ul>
+                    <li><a href="#">FASHION</a></li>
+                    <li><a href="#">BEAUTY</a></li>
+                    <li><a href="#">LIFESTYLE</a></li>
+                    <li><a href="#">CULTURE</a></li>
+                    <li><a href="#">VIDEO</a></li>
+                    <li><a href="#">RUNWAY</a></li>
+                </ul>
+            </div> <!-- .center-->
+        </div> <!-- .inner end -->
+        <a href="#">
+            <img src="img/SUBSCRIBE.png" alt="구독하기" />
+        </a>
+    </header>
+
+    <!-- ******💌main_visual💌****** -->
+    <div class="swiper main_visual">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="inner">
+                    <div class="main">
+                        <figure>
+                            <img src="img/main_visual_1.png" alt="">
+                        </figure>
+                        <a href="#"><img src="img/icon_read.png" alt="읽기" /></a>
+                    </div> <!-- .main end -->
+                    <div class="list">
+                        <div class="text">
+                            <h2>우리가 모르는 장기용</h2>
+                            <p>장기용이 다시 스타트라인에 섰다.</br>
+                                테스토스테론을 발산하며 <보그>에 드러낸 표정과 몸짓 15컷.</p>
+                            <span>2023.04.26 | by 김다혜</span>
+                        </div> <!-- .text end -->
+                        <div class="img">
+                            <a href="#"><img src="img/main_visual_1_sub01.png" alt="" /></a>
+                            <a href="#"><img src="img/main_visual_1_sub02.png" alt="" /></a>
+                            <a href="#"><img src="img/main_visual_1_sub03.png" alt="" /></a>
+                        </div> <!-- .img end -->
+                    </div> <!-- .list end -->
+                </div> <!-- .inner end -->
+            </div> <!-- .swiper-slide end 1-->
+            <div class="swiper-slide">
+                <div class="inner">
+                    <div class="main">
+                        <figure>
+                            <img src="img/main_visual_2.png" alt="">
+                        </figure>
+                        <a href="#"><img src="img/icon_read_white.png" alt="읽기" /></a>
+                    </div> <!-- .main end -->
+                    <div class="list">
+                        <div class="text">
+                            <h2>5월을 위한 이미지, 보석</h2>
+                            <p>탈색한 쇼트커트, 청량한 색채, 투명한 보석.</br>
+                                5월을 위한 명쾌한 이미지.</p>
+                            <span>2023.04.21 | by 김다혜</span>
+                        </div> <!-- .text end -->
+                        <div class="img">
+                            <a href="#"><img src="img/main_visual_2_sub01.png" alt="" /></a>
+                            <a href="#"><img src="img/main_visual_2_sub02.png" alt="" /></a>
+                            <a href="#"><img src="img/main_visual_2_sub03.png" alt="" /></a>
+                        </div> <!-- .img end -->
+                    </div> <!-- .list end -->
+                </div> <!-- .inner end -->
+            </div> <!-- .swiper-slide end 2-->
+            <div class="swiper-slide">
+                <div class="inner">
+                    <div class="main">
+                        <figure>
+                            <img src="img/main_visual_3.png" alt="">
+                        </figure>
+                        <a href="#"><img src="img/icon_read_white.png" alt="읽기" /></a>
+                    </div> <!-- .main end -->
+                    <div class="list">
+                        <div class="text">
+                            <h2>봄은 고양이로소이다</h2>
+                            <p>1년에 단 하루 열리는 고양이들의 축제 ‘젤리클 볼’에 <보그>가 초대됐다.</br>
+                                    역시, 봄은, 고양이로다!</p>
+                            <span>2023.02.22 | by 김다혜</span>
+                        </div> <!-- .text end -->
+                        <div class="img">
+                            <a href="#"><img src="img/main_visual_3_sub01.png" alt="" /></a>
+                            <a href="#"><img src="img/main_visual_3_sub02.png" alt="" /></a>
+                            <a href="#"><img src="img/main_visual_3_sub03.png" alt="" /></a>
+                        </div> <!-- .img end -->
+                    </div> <!-- .list end -->
+                </div> <!-- .inner end -->
+            </div> <!-- .swiper-slide end 3-->
+        </div>
+    </div> <!-- .main_visual end -->
+
+    <!-- ******💌cont01💌****** -->
+    <section class="cont01">
+        <div class="inner">
+            <div class="list">
+                <h1>TODAY'S STORY</h1>
+                <div class="item_wrap">
+                    <div class="item">
+                        <a href="#">
+                            <figure>
+                                <img src="img/cont01_img1.png" alt="" />
+                            </figure>
+                            <div>
+                                <p>리빙</p>
+                                <h3>The Originals with BESPOKE</h3>
+                                <span>2023.04.21 | by VOGUE PROMOTION</span>
+                            </div>
+                        </a>
+                    </div> <!-- .item end -->
+                    <div class="item">
+                        <a href="#">
+                            <figure>
+                                <img src="img/cont01_img2.png" alt="" />
+                            </figure>
+                            <div>
+                                <p>워치&주얼리</p>
+                                <h3>주얼리가 만들어내는 리듬감</h3>
+                                <span>2023.05.05  |  by 손기호</span>
+                            </div>
+                        </a>
+                    </div> <!-- .item end -->
+                    <div class="item">
+                        <a href="#">
+                            <figure>
+                                <img src="img/cont01_img3.png" alt="" />
+                            </figure>
+                            <div>
+                                <p>패션 트렌드</p>
+                                <h3>당신이 알아야 할 브랜드_시대를 역주행하는 ‘보디’</h3>
+                                <span>2023.04.27  |  by 이선영</span>
+                            </div>
+                        </a>
+                    </div> <!-- .item end -->
+                    <div class="item">
+                        <a href="#">
+                            <figure>
+                                <img src="img/cont01_img4.png" alt="" />
+                            </figure>
+                            <div>
+                                <p>아트</p>
+                                <h3>신세계의 아티스트 4인</h3>
+                                <span>2023.04.25  |  by 류가영</span>
+                            </div>
+                        </a>
+                    </div> <!-- .item end -->
+                </div> <!-- .item_wrap end -->
+            </div> <!-- .list end -->
+            <div class="main">
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont01_main.png" alt="" />
+                        </figure>
+                        <div>
+                            <p>패션 화보</p>
+                            <h3>뉴진스 해린 첫 단독 화보 B컷 공개</h3>
+                            <span>2023.04.24 | by 가남희</span>
+                        </div>
+                    </a>
+                </div> <!-- .item end -->
+            </div> <!-- .main end -->
+        </div> <!-- .inner end -->
+    </section> <!-- .cont01 end -->
+
+    <!-- ******💌cont01 cont02💌****** -->
+    <section class="cont01 cont02">
+        <div class="inner">
+            <div class="list">
+                <h1>MUST READ</h1>
+                <div class="item_wrap">
+                    <div class="item">
+                        <a href="#">
+                            <figure>
+                                <img src="img/cont02_img1.png" alt="" />
+                            </figure>
+                            <div>
+                                <p>엔터테인먼트</p>
+                                <h3>무한한 황소윤</h3>
+                                <span>2023.02.20 | by 김나랑</span>
+                            </div>
+                        </a>
+                    </div> <!-- .item end -->
+                    <div class="item">
+                        <a href="#">
+                            <figure>
+                                <img src="img/cont02_img2.png" alt="" />
+                            </figure>
+                            <div>
+                                <p>뷰티 트렌드</p>
+                                <h3>왜 어떤 물은 더 고귀한가</h3>
+                                <span>2023.03.03 | by 송가혜</span>
+                            </div>
+                        </a>
+                    </div> <!-- .item end -->
+                    <div class="item">
+                        <a href="#">
+                            <figure>
+                                <img src="img/cont02_img3.png" alt="" />
+                            </figure>
+                            <div>
+                                <p>뷰티 트렌드</p>
+                                <h3>It’s raining men, hallelujah</h3>
+                                <span>2019.11.28  |  by VOGUE</span>
+                            </div>
+                        </a>
+                    </div> <!-- .item end -->
+                    <div class="item">
+                        <a href="#">
+                            <figure>
+                                <img src="img/cont02_img4.png" alt="" />
+                            </figure>
+                            <div>
+                                <p>패션 화보</p>
+                                <h3>Z세대가 한복을 대하는 법</h3>
+                                <span>2022.10.07  |  by 김다혜</span>
+                            </div>
+                        </a>
+                    </div> <!-- .item end -->
+                </div> <!-- .item_wrap end -->
+            </div> <!-- .list end -->
+            <div class="main">
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont02_main.png" alt="" />
+                        </figure>
+                        <div>
+                            <p>뷰티 화보</p>
+                            <h3>차은우가 재해석한 ‘Dior Beauty’의 여름</h3>
+                            <span>2022.09.05 | by 송가혜</span>
+                        </div>
+                    </a>
+                </div> <!-- .item end -->
+            </div> <!-- .main end -->
+        </div> <!-- .inner end -->
+    </section> <!-- .cont02 end -->
+
+    <!-- ******💌pashion💌****** -->
+    <section class="pashion">
+        <div class="inner">
+            <div class="main">
+                <div>
+                    <a href="#"><img src="img/cont03_main1.png" alt="" /></a>
+                    <a href="#"><img src="img/cont03_main2.png" alt="" /></a>
+                </div>
+                <h4>PASHION</h4>
+            </div> <!-- .main end -->
+            <div class="list">
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont03_img1.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>패션 뉴스</p>
+                        <h3>모델 최소라와 톰 브라운이 칼 라거 펠트를 추억하는 법</h3>
+                        <span>2023.05.03 | by 안건호</span>
+                    </div>
+                </div> <!-- .item end -->
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont03_img2.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>셀러브리티 스타일</p>
+                        <h3>키치 그 자체, 리한나의 빈티지
+                            샤넬 룩</h3>
+                        <span>2023.05.01 | by 오기쁨</span>
+                    </div>
+                </div> <!-- .item end -->
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont03_img3.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>패션 뉴스</p>
+                        <h3>릴라 모스와 스텔라 존스의 패션과 우정</h3>
+                        <span>2023.04.19 | by 김다혜, Christian Allaire</span>
+                    </div>
+                </div> <!-- .item end -->
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont03_img4.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>워치&주얼리</p>
+                        <h3>보석과 색, 그저 전부!</h3>
+                        <span>2023.04.20 | by 김다혜</span>
+                    </div>
+                </div> <!-- .item end -->
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont03_img5.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>패션 트렌드</p>
+                        <h3>‘바비’는 어떻게 디자이너를 매혹시켰는가</h3>
+                        <span>2023.04.12 | by 윤승현</span>
+                    </div>
+                </div> <!-- .item end -->
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont03_img6.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>셀러브리티 스타일</p>
+                        <h3>‘지금’의 대체어, 지올 팍과 지올팍</h3>
+                        <span>2023.04.23 | by 김나랑, 김봉현</span>
+                    </div>
+                </div> <!-- .item end -->
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont03_img7.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>패션 화보</p>
+                        <h3>봄의 패션 풍경 #5_이상한 나라의 마르니</h3>
+                        <span>2023.03.03 | by 허보연</span>
+                    </div>
+                </div> <!-- .item end -->
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont03_img8.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>패션 아이템</p>
+                        <h3>완전히 새로운 프레임과 컬러로 등장한 틴티드 안경</h3>
+                        <span>2023.04.23 | by 김나랑, 김봉현</span>
+                    </div>
+                </div> <!-- .item end -->
+            </div> <!-- .list end -->
+        </div> <!-- .inner end -->
+    </section> <!-- pashion end -->
+
+    <!-- ******💌pashion beauty💌****** -->
+    <section class="pashion beauty">
+        <div class="inner">
+            <div class="main">
+                <div>
+                    <a href="#"><img src="img/cont04_main1.png" alt="" /></a>
+                    <a href="#"><img src="img/cont04_main2.png" alt="" /></a>
+                </div>
+                <h4>BEAUTY</h4>
+            </div> <!-- .main end -->
+            <div class="list">
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont04_img1.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>웰니스</p>
+                        <h3>디저트의 유혹에서 벗어나자</h3>
+                        <span>2023.04.19 | by 오기쁨</span>
+                    </div>
+                </div> <!-- .item end -->
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont04_img2.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>뷰티 화보</p>
+                        <h3>‘보그’가 추천하는 치크 키워드 6</h3>
+                        <span>2023.04.06 | by 송가혜</span>
+                    </div>
+                </div> <!-- .item end -->
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont04_img3.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>뷰티 트렌드</p>
+                        <h3>2023 뷰티 코드: 제로 플라스틱</h3>
+                        <span>2022.12.30 | by 이주현</span>
+                    </div>
+                </div> <!-- .item end -->
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont04_img4.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>뷰티 화보</p>
+                        <h3>아름다움을 극대화할 비법 8가지</h3>
+                        <span>2023.02.02 | by 송가혜</span>
+                    </div>
+                </div> <!-- .item end -->
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont04_img5.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>뷰티 화보</p>
+                        <h3>봄, 가장 강렬한 환각</h3>
+                        <span>2023.03.13 | by 송가혜</span>
+                    </div>
+                </div> <!-- .item end -->
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont04_img6.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>뷰티 아이템</p>
+                        <h3>이솝, 그 다름과 힘 ③ – 지속 가능성</h3>
+                        <span>2022.12.20 | by 송가혜</span>
+                    </div>
+                </div> <!-- .item end -->
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont04_img7.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>뷰티 트렌드</p>
+                        <h3>빨갛고 새침하게! 프랑스 소녀의 전형적인 네일</h3>
+                        <span>2023.04.23 | by 김나랑, 김봉현</span>
+                    </div>
+                </div> <!-- .item end -->
+                <div class="item">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont04_img8.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>웰니스</p>
+                        <h3>코드명 ‘기후 불안증’, 미래가 사라지고 있다?</h3>
+                        <span>2022.09.27 | by 송가혜</span>
+                    </div>
+                </div> <!-- .item end -->
+            </div> <!-- .item end -->
+        </div> <!-- .list end -->
+        </div> <!-- .inner end -->
+    </section> <!-- pashion beauty end -->
+
+    <!-- ******💌cont05💌****** -->
+    <section class="cont05">
+        <h1>LIFE STYLE</h1>
+        <div class="inner">
+            <a href="#">MORE +</a>
+        </div> <!-- .inner end -->
+        <div class="swiper life">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont05_img1.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>푸드</p>
+                        <h3>울산 여행자를 위한 맛집 4</h3>
+                        <span>2023.04.27 | by 강연주</span>
+                    </div>
+                </div> <!-- .swiper-slide end 1-->
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont05_img2.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>리빙</p>
+                        <h3>길에서 만난 엄마, 아빠</h3>
+                        <span>2023.04.26 | by 류가영</span>
+                    </div>
+                </div> <!-- .swiper-slide end 2-->
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont05_img3.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>뷰 포인트</p>
+                        <h3>초보 가드너의 열대 정원 잔혹사</h3>
+                        <span>2023.04.05 | by 이숙명</span>
+                    </div>
+                </div> <!-- .swiper-slide end 3-->
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont05_img4.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>여행</p>
+                        <h3>장거리 비행에서 살아남는 팁</h3>
+                        <span>2023.04.23 | by 김나랑, 김봉현</span>
+                    </div>
+                </div> <!-- .swiper-slide end 4-->
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont05_img5.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>리빙</p>
+                        <h3>지금 제일 ‘쿨’한 메탈 인테리어 브랜드 3</h3>
+                        <span>2023.04.19 | by 김민정</span>
+                    </div>
+                </div> <!-- .swiper-slide end 5-->
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont05_img6.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>뷰 포인트</p>
+                        <h3>캐리 멀리건에 대해 우리가 오해한 것들</h3>
+                        <span>2022.12.02 | by 이소미</span>
+                    </div>
+                </div> <!-- .swiper-slide end 6-->
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont05_img7.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>푸드</p>
+                        <h3>전시만큼 아름다운, 미술관 안 카페 4</h3>
+                        <span>2023.03.21 | by 김민정</span>
+                    </div>
+                </div> <!-- .swiper-slide end 7-->
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont05_img8.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>여행</p>
+                        <h3>부산 아트위크 추천 여행 스폿 4</h3>
+                        <span>2023.04.28 | by 이정미</span>
+                    </div>
+                </div> <!-- .swiper-slide end 8-->
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont05_img1.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>푸드</p>
+                        <h3>울산 여행자를 위한 맛집 4</h3>
+                        <span>2023.04.27 | by 강연주</span>
+                    </div>
+                </div> <!-- .swiper-slide end 1-->
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont05_img2.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>리빙</p>
+                        <h3>길에서 만난 엄마, 아빠</h3>
+                        <span>2023.04.26 | by 류가영</span>
+                    </div>
+                </div> <!-- .swiper-slide end 2-->
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont05_img3.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>뷰 포인트</p>
+                        <h3>초보 가드너의 열대 정원 잔혹사</h3>
+                        <span>2023.04.05 | by 이숙명</span>
+                    </div>
+                </div> <!-- .swiper-slide end 3-->
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont05_img4.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>여행</p>
+                        <h3>장거리 비행에서 살아남는 팁</h3>
+                        <span>2023.04.23 | by 김나랑, 김봉현</span>
+                    </div>
+                </div> <!-- .swiper-slide end 4-->
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="img/cont05_img5.png" alt="" />
+                        </figure>
+                    </a>
+                    <div>
+                        <p>리빙</p>
+                        <h3>지금 제일 ‘쿨’한 메탈 인테리어 브랜드 3</h3>
+                        <span>2023.04.19 | by 김민정</span>
+                    </div>
+                </div> <!-- .swiper-slide end 5-->
+            </div>
+        </div> <!-- swiper life end -->
+    </section> <!-- life end -->
+
+    <!-- ******💌cont06💌****** -->
+    <section class="cont06">
+        <h1>CULTURE</h1>
+        <div class="inner">
+            <a href="#">MORE +</a>
+        </div> <!-- .inner end -->
+        <div class="item_wrap">
+            <div class="item">
+                <a href="#">
+                    <figure>
+                        <img src="img/cont06_img1.png" alt="" />
+                    </figure>
+                    <div>
+                        <p>엔터테인먼트</p>
+                        <h3>블랙핑크, 코첼라의 순간들</h3>
+                    </div>
+                </a>
+            </div> <!-- .item end 1-->
+            <div class="item">
+                <a href="#">
+                    <figure>
+                        <img src="img/cont06_img2.png" alt="" />
+                    </figure>
+                    <div>
+                        <p>아트</p>
+                        <h3>물, Everything Everywhere</h3>
+                    </div>
+                </a>
+            </div> <!-- .item end 2-->
+            <div class="item">
+                <a href="#">
+                    <figure>
+                        <img src="img/cont06_img3.png" alt="" />
+                    </figure>
+                    <div>
+                        <p>셀럽 뉴스</p>
+                        <h3>뜻밖의 발견, 피프티 피프티</h3>
+                    </div>
+                </a>
+            </div> <!-- .item end 3-->
+            <div class="item">
+                <a href="#">
+                    <figure>
+                        <img src="img/cont06_img4.png" alt="" />
+                    </figure>
+                    <div>
+                        <p>엔터테인먼트</p>
+                        <h3>세븐틴의 호시, 우지, 버논_불규칙의 규칙 </h3>
+                    </div>
+                </a>
+            </div> <!-- .item end 4-->
+            <div class="item">
+                <a href="#">
+                    <figure>
+                        <img src="img/cont06_img5.png" alt="" />
+                    </figure>
+                    <div>
+                        <p>아트</p>
+                        <h3>지금 제주 여행 중이라면 봐야 할 전시 4</h3>
+                    </div>
+                </a>
+            </div> <!-- .item end 5-->
+            <div class="item">
+                <a href="#">
+                    <figure>
+                        <img src="img/cont06_img6.png" alt="" />
+                    </figure>
+                    <div>
+                        <p>셀럽 뉴스</p>
+                        <h3>뛰어난 미술 실력까지 갖춘 배우 3</h3>
+                    </div>
+                </a>
+            </div> <!-- .item end 6-->
+        </div> <!-- item_wrap end -->
+    </section> <!-- cont06 end -->
+
+    <!-- ******💌footer💌****** -->
+    <footer>
+        <div class="list">
+            <div class="bg">
+                <div class="wrap">
+                    <figure class="logo">
+                        <img src="img/footer_logo_white.svg" alt="" />
+                    </figure> <!-- .logo end -->
+                    <div class="info">
+                        <a href="#">정기구독</a>
+                        <a href="#">회사소개</a>
+                        <a href="#">광고/제휴</a>
+                        <a href="#">개인정보처리방침</a>
+                    </div> <!-- info end -->
+                    <figure class="contact">
+                        <a href="#">
+                            <img src="img/CONTACT_US.png" alt="" />
+                        </a>
+                    </figure> <!-- .contact end -->
+                    <p>VOGUE.CO.KR IS OPERATED BY DOOSAN MAGAZINE</p>
+                </div> <!-- .wrap end -->
+            </div> <!-- .bg end -->
+        </div> <!-- .list end -->
+    </footer>
+</body>
+
+</html>
