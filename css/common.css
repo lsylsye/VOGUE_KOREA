@@ -1184,28 +1184,24 @@ span {
         font-size: 36px;
     }
     /******* header *******/
+    header {
+        height: 110px;
+    }
     header .inner .center ul {
-        margin-top: 15px;
+        display: none;
     }
-
-    header .inner .center ul li {
-        margin-right: 10px;
-        font-size: 13px;
-    }
-
     header .inner .center figure img {
         width: 120px;
-        line-height: 130px;
+        line-height: 110px;
     }
 
     header .inner .left li {
-        width: 18px;
         margin-right: 15px;
+        line-height: 110px;
     }
 
     header .inner .left li:last-of-type {
-        width: 20px;
-        line-height: 114px;
+        line-height: 116px;
     }
 
     /******* main_visual *******/
