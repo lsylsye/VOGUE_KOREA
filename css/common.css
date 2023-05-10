@@ -1,0 +1,1188 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat-Thin.eot');
+    src: url('font/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
+        url('font/Montserrat-Thin.woff2') format('woff2'),
+        url('font/Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat-ExtraLight.eot');
+    src: url('font/Montserrat-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('font/Montserrat-ExtraLight.woff2') format('woff2'),
+        url('font/Montserrat-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat-Light.eot');
+    src: url('font/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/Montserrat-Light.woff2') format('woff2'),
+        url('font/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat-Regular.eot');
+    src: url('font/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/Montserrat-Regular.woff2') format('woff2'),
+        url('font/Montserrat-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat-Medium.eot');
+    src: url('font/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/Montserrat-Medium.woff2') format('woff2'),
+        url('font/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat-SemiBold.eot');
+    src: url('font/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('font/Montserrat-SemiBold.woff2') format('woff2'),
+        url('font/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat-Bold.eot');
+    src: url('font/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/Montserrat-Bold.woff2') format('woff2'),
+        url('font/Montserrat-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat-ExtraBold.eot');
+    src: url('font/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('font/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('font/Montserrat-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat-Black.eot');
+    src: url('font/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+        url('font/Montserrat-Black.woff2') format('woff2'),
+        url('font/Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Black.eot');
+    src: url('font/Pretendard-Black.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Black.woff2') format('woff2'),
+        url('font/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-ExtraBold.eot');
+    src: url('font/Pretendard-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-ExtraBold.woff2') format('woff2'),
+        url('font/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Bold.eot');
+    src: url('font/Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Bold.woff2') format('woff2'),
+        url('font/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-SemiBold.eot');
+    src: url('font/Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-SemiBold.woff2') format('woff2'),
+        url('font/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Medium.eot');
+    src: url('font/Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Medium.woff2') format('woff2'),
+        url('font/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Regular.eot');
+    src: url('font/Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Regular.woff2') format('woff2'),
+        url('font/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Light.eot');
+    src: url('font/Pretendard-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Light.woff2') format('woff2'),
+        url('font/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-ExtraLight.eot');
+    src: url('font/Pretendard-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-ExtraLight.woff2') format('woff2'),
+        url('font/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Thin.eot');
+    src: url('font/Pretendard-Thin.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Thin.woff2') format('woff2'),
+        url('font/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #333;
+    line-height: 1;
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-size: 1.6rem;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 7.2rem;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+
+h3 {
+    word-break: keep-all;
+    font-weight: 600px;
+}
+
+span {
+    color: #999;
+}
+
+.inner {
+    max-width: 1560px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
+@media all and (max-width:1800px) {
+    header>a {
+        display: none;
+    }
+}
+
+/******* cont02 *******/
+/******* pashion *******/
+/******* beauty *******/
+/******* cont05 *******/
+/******* cont06 *******/
+/******* footer *******/
+
+
+/* 1560px 이하일때 스타일 변경 */
+@media all and (max-width:1560px) {
+    html {
+        font-size: 65%;
+    }
+    /******* header *******/
+    header .inner .center ul li {
+        font-size: 16px;
+    }
+    /******* main_visual *******/
+    .main_visual .inner .main>a {
+        width: 180px;
+    }
+    /******* cont01 *******/
+    .cont01 {
+        height: 650px;
+    }
+    .cont01 .inner .list .item_wrap .item {
+        width: calc(100% / 4 - 12px);
+    }
+    .cont01 .inner .list .item_wrap .item h3 {
+        font-size: 20px;
+    }
+    .cont01 .inner .main .item h3 {
+        font-size: 28px;
+    }
+    /******* pashion *******/
+    .pashion .inner .main h4 {
+        font-size: 100px;
+    }
+    /******* cont06 *******/
+    .cont06 .item_wrap .item div h3 {
+        font-size: 22px;
+    }
+}
+
+/* 1280px 이하일때 스타일 변경 */
+@media all and (max-width:1280px) {
+    html {
+        font-size: 60%;
+    }
+    html h1 {
+        font-size: 60px;
+    }
+    /******* main_visual *******/
+    .main_visual .inner .main>a {
+        width: 160px;
+    }
+    .main_visual .inner .list .text h2 {
+        font-size: 40px;
+    }
+    /******* cont01 *******/
+    .cont01 {
+        margin: 150px auto;
+        height: 600px;
+    }
+    .cont01 .inner .main .item p {
+        font-size: 16px;
+    }
+    .cont01 .inner .main .item h3 {
+        font-size: 26px;
+    }
+    .cont01 .inner .list .item_wrap .item {
+        max-width: 268px;
+        width: calc(100% / 3 - 10px);
+    }
+    .cont01 .inner .list .item_wrap .item:nth-child(3)~.item {
+        display: none;
+    }
+    .cont01 .inner .main {
+        width: 27%;
+        height: 45vw;
+        position: absolute;
+        top: 7%;
+        right: 0;
+    }
+    /******* pashion *******/
+    .pashion {
+        margin: 150px auto;
+    }
+    .pashion .inner .main {
+        margin-right: 25px;
+    }
+    .pashion .inner .main h4 {
+        font-size: 80px;
+    }
+    .pashion .inner .list .item div p {
+        font: 15px;
+    }
+    .pashion .inner .list .item div h3 {
+        font-size: 25px;
+    }
+    /******* cont05 *******/
+    .cont05 {
+        margin: 150px auto;
+    }
+    .cont05 .inner a::after {
+        top: 1.15px;
+    }
+    /******* cont06 *******/
+    .cont06 {
+        margin: 150px 0 auto;
+    }
+    .cont06 .inner a::after {
+        top: 1.15px;
+    }
+    .cont06 .item_wrap .item div h3 {
+        font-size: 20px;
+    }
+    /******* footer *******/
+    footer {
+        height: 700px;
+        background-image: url("../img/footer_bg_2.png")
+    }
+    footer .bg {
+        height: 320px;
+    }
+    footer .bg .wrap .logo img {
+        height: 50px;
+    }
+    footer .bg .contact {
+        width: 25px;
+    }
+    footer .bg .wrap .contact {
+        right: 48px;
+    }
+    footer .bg p {
+        font: 14px;
+    }
+}
+
+/* 1024px 이하일때 스타일 변경 */
+@media all and (max-width:1024px) {
+    html {
+        font-size: 55%
+    }
+    html h1 {
+        font-size: 58px;
+    }
+    /******* center *******/
+    header .inner .left li {
+        width: 24px;
+        margin-right: 20px;
+    }
+    header .inner .left li:last-of-type {
+        width: 26px;
+    }
+    header .inner .center figure img {
+        width: 240px;
+    }
+    /******* main_visual *******/
+    .main_visual .inner .main>a {
+        display: none;
+    }
+    .main_visual .inner .list .text h2 {
+        font-size: 34px;
+    }
+    /******* cont01 *******/
+    .cont01 {
+        margin: 120px auto;
+        height: 100%;
+    }
+    .cont01 .inner .list h1 {
+        text-align: left;
+        letter-spacing: 5px;
+        word-spacing: 5px;
+        margin-bottom: 50px;
+    }
+    .cont01 .inner .list .item_wrap {
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    .cont01 .inner .list .item_wrap .item {
+        max-width: 320px;
+        width: calc(100% / 2 - 10px);
+        margin-bottom: 30px;
+    }
+    .cont01 .inner .list .item_wrap .item figure {
+        height: 185px;
+    }
+    .cont01 .inner .list .item_wrap .item h3 {
+        margin: 3px 0 15px
+    }
+    .cont01 .inner .list .item_wrap .item p {
+        margin-top: 10px;
+    }
+    .cont01 .inner .list .item_wrap .item:nth-child(3)~.item {
+        display: block;
+    }
+    .cont01 .inner .main {
+        width: 31%;
+        height: 45vw;
+        position: absolute;
+        top: 15.7%;
+        right: 0;
+    }
+    .cont01 .inner .main .item p {
+        margin-top: 10px;
+    }
+    .cont01 .inner .main .item h3 {
+        font-size: 24px;
+        margin: 3px 0 15px;
+    }
+    /******* cont02 *******/
+    .cont02 .inner .list h1 {
+        text-align: right;
+    }
+    .cont02 .inner .list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    /******* pashion *******/
+    .pashion {
+        margin: 120px auto;
+    }
+    .pashion .inner {
+        position: relative;
+        justify-content:space-between;
+    }
+    .pashion .inner .main {
+        position: relative;
+        margin-right: 20px;
+    }
+    .pashion .inner .main div {
+        position: relative;
+    }
+    .pashion .inner .main img {
+        height: 58vh;
+    }
+    .pashion .inner .main h4 {
+        top: 58%;
+        font-size: 64px;
+    }
+    .pashion .inner .list .item {
+        margin-bottom: 30px;
+    }
+    .pashion .inner .list .item figure {
+        height: 187px;
+    }
+    .pashion .inner .list .item div h3 {
+        font-size: 24px;
+        margin: 5px 0 20px;
+    }
+    .pashion .inner .list .item:nth-child(6)~.item {
+        display: none;
+    }
+    .pashion .inner .list .item:nth-child(2),
+    .pashion .inner .list .item:nth-child(4),
+    .pashion .inner .list .item:nth-child(6),
+    .pashion .inner .list .item:nth-child(8) {
+        margin-top: 0;
+    }
+    .pashion .inner .list {
+        width: 65%;
+    }
+    /******* cont05 *******/
+    .cont05 {
+        margin: 120px auto;
+    }
+    .cont05 h1 {
+        letter-spacing: 5px;
+        word-spacing: 5px;
+    }
+    .cont05 .inner a::after {
+        top: 0.5px;
+    }
+    .cont05 .life {
+        margin-top: 20px;
+    }
+    /******* cont06 *******/
+    .cont06 {
+        margin-top: 0;
+    }
+    .cont06 .inner a::after {
+        top: 0.5px;
+    }
+    .cont06 .item_wrap {
+        margin-top: 20px;
+    }
+    .cont06 .item_wrap .item div p {
+        font-size: 16px;
+    }
+    .cont06 .item_wrap .item div h3 {
+        font-size: 20px;
+    }
+    /******* footer *******/
+    footer {
+        height: 620px;
+        background-image: url("../img/footer_bg_3.png")
+    }
+    footer .bg {
+        height: 280px;
+    }
+    footer .bg .contact {
+        width: 22px;
+    }
+    footer .bg .wrap .contact {
+        right: 42px;
+    }
+    footer .bg p {
+        font: 14px;
+    }
+    footer .bg .wrap .logo img {
+        height: 45px;
+    }
+    footer .bg .info a {
+        font-size: 15px;
+    }
+    footer .bg .wrap p {
+        font-size: 13px;
+    }
+}
+
+/* 840px 이하일때 스타일 변경 */
+@media all and (max-width:840px) {
+    html {
+        font-size: 46%;
+    }
+    html h1 {
+        font-size: 52px;
+    }
+    /******* cont01 *******/
+    .cont01 {
+        margin: 100px auto;
+    }
+    .cont01 .inner .main {
+        width: 31%;
+        height: 45vw;
+        position: absolute;
+        top: 14.8%;
+        right: 0;
+    }
+    /******* main_visual *******/
+    .main_visual .inner .list .text h2 {
+        font-size: 26px;
+    }
+    /******* cont01 *******/
+    .cont01 .inner .list .item_wrap .item p {
+        font-size: 13px;
+    }
+    .cont01 .inner .list .item_wrap .item span {
+        font-size: 13px;
+    }
+    .cont01 .inner .list .item_wrap .item h3 {
+        font-size: 18px;
+    }
+    /******* pashion *******/
+    .pashion {
+        margin: 100px auto;
+        height: 1060px;
+    }
+    .pashion .inner .main h4 {
+        font-size: 56px;
+    }
+    .pashion .inner .list .item div p {
+        font-size: 13px;
+    }
+    .pashion .inner .list .item div span {
+        font-size: 13px;
+    }
+    .pashion .inner .list .item div h3 {
+        font-size: 20px;
+    }
+    /******* cont05 *******/
+    .cont05 {
+        margin: 100px auto;
+    }
+    .cont05 .inner a::after {
+        top: -1.2px;
+    }
+    .cont05 .life .swiper-wrapper .swiper-slide div p {
+        font-size: 14px;
+    }
+    .cont05 .life .swiper-wrapper .swiper-slide div span {
+        font-size: 13px;
+    }
+    /******* cont06 *******/
+    .cont06 .inner a::after {
+        top: -1.2px;
+    }
+    .cont06 .item_wrap .item div p {
+        font-size: 15px;
+    }
+    .cont06 .item_wrap .item div h3 {
+        font-size: 18px;
+    }
+    /******* footer *******/
+    footer {
+        height: 530px;
+        background-image: url("../img/footer_bg_4.png")
+    }
+    footer .bg {
+        height: 230px;
+    }
+    footer .bg .contact {
+        width: 20px;
+    }
+    footer .bg .wrap .contact {
+        right: 36px;
+    }
+    footer .bg p {
+        font: 14px;
+    }
+    footer .bg .wrap .logo img {
+        height: 38px;
+    }
+}
+
+/* 767px 이하일때 스타일 변경 */
+@media all and (max-width:767px) {
+    html h1 {
+        font-size: 46px;
+    }
+    /******* header *******/
+    header {
+        height: 130px;
+    }
+    header .inner {
+        position: relative;
+    }
+    header .inner .left {
+        position: absolute;
+        top: 0;
+        right: 0;
+        line-height: 110px;
+    }
+    header .inner .left li {
+        width: 20px;
+        margin-right: 17px;
+    }
+    header .inner .left li:last-of-type {
+        width: 22px;
+        line-height: 116px;
+    }
+    header .inner .center {
+        left: 0;
+        transform: translate(0, -50%);
+        text-align: start;
+    }
+    header .inner .center ul {
+        margin-top: 20px;
+    }
+    header .inner .center ul li {
+        margin-right: 20px;
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+    header .inner .center figure img {
+        width: 130px;
+        line-height: 130px;
+    }
+    /******* main_visual *******/
+    .main_visual .inner .main figure {
+        max-width: 100%;
+        height: 80vh;
+        position: relative;
+    }
+    .main_visual .inner .main figure::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(to top, rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0));
+        cursor: pointer;
+    }
+    .swiper-slide:nth-child(1) .inner .main figure {
+        position: relative;
+    }
+    .swiper-slide:nth-child(1) .inner .main figure::after {
+        content: '';
+        background-image: url(../img/main_visual_1_text.png);
+        background-size: cover;
+        width: 401px;
+        height: 122px;
+        display: block;
+        position: absolute;
+        bottom: 38px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .swiper-slide:nth-child(2) .inner .main figure::after {
+        content: '';
+        background-image: url(../img/main_visual_2_text.png);
+        background-size: cover;
+        width: 282px;
+        height: 122px;
+        display: block;
+        position: absolute;
+        bottom: 38px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .swiper-slide:nth-child(3) .inner .main figure::after {
+        content: '';
+        background-image: url(../img/main_visual_3_text.png);
+        background-size: cover;
+        width: 333px;
+        height: 122px;
+        display: block;
+        position: absolute;
+        bottom: 38px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .swiper-slide:nth-child(2) .inner .main figure img {
+        content: url(../img/main_visual_2-1.png);
+    }
+    .main_visual .inner .list {
+        display: none;
+    }
+    /******* cont01 *******/
+    .cont01 {
+        margin: 80px auto;
+        height: 660px;
+    }
+    .cont02 {
+        height: 700px;
+    }
+    .cont01 .inner {
+        position: relative;
+    }
+    .cont01 .inner .list {
+        width: 100%;
+    }
+    .cont01 .inner .list h1 {
+        width: 100%;
+        text-align: center;
+    }
+    .cont01 .inner .list .item_wrap {
+        width: 50%;
+        flex-wrap: wrap;
+    }
+    .cont01 .inner .list .item_wrap .item:nth-child(2) ~ .item {
+        display: none;
+    }
+    .cont01 .inner .list .item_wrap .item:first-child {
+        margin-bottom: 15px;
+    }
+    .cont01 .inner .list .item_wrap .item {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    .cont01 .inner .list .item_wrap .item p {
+        font-size: 13px;
+    }
+    .cont01 .inner .list .item_wrap .item h3 {
+        font-size: 20px;
+    }
+    .cont01 .inner .list .item_wrap .item span {
+        font-size: 13px
+    }
+    .cont01 .inner .main {
+        width: 48%;
+        position: absolute;
+        top: 15%;
+        right: 0;
+    }
+    /******* cont02 *******/
+    .cont02 .inner .list .item_wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    /******* pashion *******/
+    .pashion {
+        height: 820px;
+        margin: 80px auto;
+    }
+    .beauty {
+        height: 768px;
+    }
+    .pashion .inner {
+        display: block;
+        position: relative;
+    }
+    .pashion .inner .main {
+        width: 100%;
+        height: 260px;
+        z-index: -9;
+        margin-left: 0;
+    }
+    .pashion .inner .main h4 {
+        top: 44%;
+        font-size: 56px;
+    }
+    .pashion .inner .main div {
+        display: flex;
+    }
+    .pashion .inner .main div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .pashion .inner .list {
+        width: 94%;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .pashion .inner .list .item:nth-child(4) ~ .item {
+        display: none;
+    }
+    .pashion .inner .list .item {
+        width: calc(100% / 2 - 5px);
+    }
+    .pashion .inner .list .item div p {
+        font-size: 13px;
+    }
+    .pashion .inner .list .item div span {
+        font-size: 13px;
+    }
+    /******* cont05 *******/
+    .cont05 {
+        margin: 80px auto;
+    }
+    .cont05 .life .swiper-wrapper .swiper-slide {
+        width: 50%;
+    }
+    /******* cont06 *******/
+    .cont05 .life {
+        margin-top: 15px;
+    }
+    /******* cont06 *******/
+    .cont06 {
+        margin-top: 0;
+    }
+    .cont06 h1 {
+        letter-spacing: 0;
+    }
+    .cont06 .item_wrap {
+        margin-top: 15px;
+    }
+    .cont06 .item_wrap .item {
+        width: calc(100% / 2);
+    }
+    .cont06 .item_wrap .item:nth-child(3),
+    .cont06 .item_wrap .item:nth-child(6) {
+        display: none;
+    }
+    /******* footer *******/
+    footer {
+        height: 450px;
+        background-image: url("../img/footer_bg_5.png")
+    }
+    footer .bg {
+        height: 230px;
+    }
+    footer .bg .contact {
+        display: none;
+    }
+    footer .bg p {
+        font: 14px;
+    }
+    footer .bg .wrap .logo img {
+        height: 35px;
+    }
+    footer .bg .info a {
+        font-size: 14px;
+    }
+    footer .bg .wrap p {
+        font-size: 12px;
+    }
+}
+
+/* 640px 이하일때 스타일 변경 */
+@media all and (max-width:640px) {
+    html {
+        font-size: 40%;
+    }
+    html h1 {
+        font-size: 40px;
+    }
+    /******* header *******/
+    header .inner .center ul {
+        width: 100%;
+        flex-wrap: wrap;
+        line-height: 1.5;
+        margin-top: 15px;
+    }
+    /******* cont01 *******/
+    .cont01 {
+        height: 100%;
+    }
+    .cont01 .inner .main {
+        top: 14.4%;
+    }
+    .cont01 .inner .main .item p {
+        font-size: 14px;
+    }
+    .cont01 .inner .main .item span {
+        font-size: 12px;
+    }
+    .cont01 .inner .list .item_wrap .item h3 {
+        font-size: 18px;
+    }
+    /******* pashion *******/
+    .pashion {
+        height: 750px;
+    }
+    .pashion .inner .main {
+        height: 240px;
+    }
+    .pashion .inner .main div {
+        height: 100%;
+    }
+    .pashion .inner .main h4 {
+        top: 30%;
+        font-size: 44px;
+    }
+    .pashion .inner .list {
+        top: 48%;
+    }
+    .pashion .inner .list .item div h3 {
+        font-size: 18px;
+    }
+    .cont05 .life {
+        margin-top: 10px;
+    }
+    /******* cont06 *******/
+    .cont06 .item_wrap {
+        margin-top: 10px;
+    }
+    .cont06 .item_wrap .item div p {
+        font-size: 13px;
+    }
+    .cont06 .item_wrap .item div h3 {
+        font-size: 16px;
+    }
+    /******* footer *******/
+    footer .bg .info a {
+        margin-right: 20px;
+    }
+
+}
+/* 486px 이하일때 스타일 변경 */
+@media all and (max-width:486px) {
+    html {
+        font-size: 36%;
+    }
+    html h1 {
+        font-size: 36px;
+    }
+
+    /******* header *******/
+    header .inner .center ul {
+        margin-top: 15px;
+    }
+    header .inner .center ul li {
+        margin-right: 10px;
+        font-size: 13px;
+    }
+    header .inner .center figure img {
+        width: 120px;
+        line-height: 130px;
+    }
+    header .inner .left li {
+        width: 18px;
+        margin-right: 15px;
+    }
+    header .inner .left li:last-of-type {
+        width: 20px;
+        line-height: 114px;
+    }
+    /******* main_visual *******/
+    .main_visual .inner .main figure {
+        height: 70vh;
+    }
+    .swiper-slide:nth-child(1) .inner .main figure::after {
+        width: 329px;
+        height: 100px;
+    }
+    .swiper-slide:nth-child(2) .inner .main figure::after {
+        width: 232px;
+        height: 100px;
+    }
+    .swiper-slide:nth-child(3) .inner .main figure::after {
+        width: 273px;
+        height: 100px;
+    }
+    /******* cont01 *******/
+    .cont01 .inner .list h1 {
+        margin-bottom: 35px;
+    }
+    .cont01 .inner .main {
+        display: none;
+    }
+    .cont01 .inner .list .item_wrap {
+        width: 100%;
+    }
+    .cont01 .inner .list .item_wrap .item figure {
+        height: 35vh;
+    }
+    .cont01 .inner .list .item_wrap .item div {
+        text-align: center;
+    }
+    .cont01 .inner .list .item_wrap .item p {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .cont01 .inner .list .item_wrap .item h3 {
+        font-size: 24px;
+    }
+    .cont01 .inner .list .item_wrap .item span {
+        font-size: 14px;
+    }
+    .cont01 .inner .list .item_wrap .item:first-child {
+        margin-bottom: 30px;
+    }
+    /******* pashion *******/
+    .pashion .inner .main {
+        height: 200px;
+    }
+    .pashion .inner .main h4 {
+        top: 30%;
+        font-size: 36px;
+    }
+    /******* cont06 *******/
+    .cont06 .item_wrap .item {
+        height: 140px;
+    }
+    .cont06 .item_wrap .item figure {
+        height: 100%;
+    }
+}
+/* 414px 이하일때 스타일 변경 */
+@media all and (max-width:414px) {
+    html {
+        font-size: 34%;
+    }
+    html h1 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    /******* header *******/
+    header .inner .left {
+        line-height: 90px;
+    }
+    header .inner .left li:last-of-type {
+        line-height: 94px;
+    }
+    /******* main_visual *******/
+    .main_visual .inner .main figure {
+        height: 60vh;
+    }
+    .swiper-slide:nth-child(1) .inner .main figure::after {
+        width: 312px;
+        height: 95px;
+    }
+    .swiper-slide:nth-child(2) .inner .main figure::after {
+        width: 220px;
+        height: 95px;
+    }
+    .swiper-slide:nth-child(3) .inner .main figure::after {
+        width: 259px;
+        height: 95px;
+    }
+    /******* cont01 *******/
+    .cont01 {
+        margin: 60px auto;
+    }
+    .cont01 .inner .list .item_wrap .item h3 {
+        font-size: 20px;
+    }
+    /******* pashion *******/
+    .pashion {
+        height: 695px;
+        margin: 60px auto;
+    }
+    .beauty {
+        height: 665px;
+    }
+    .pashion .inner .main {
+        height: 180px;
+    }
+    .pashion .inner .main h4 {
+        top: 28%;
+    }
+    .pashion .inner .main div {
+        height: 100%;
+    }
+    .pashion .inner .list .item div h3 {
+        font-size: 16px;
+    }
+    .pashion .inner .list .item figure {
+        height: 170px;
+    }
+    .pashion .inner .list .item div p {
+        margin-top: 10px;
+    }
+    /******* cont05 *******/
+    .cont05 {
+        margin: 60px auto;
+    }
+    .cont05 .life .swiper-wrapper .swiper-slide div p {
+        margin-top: 10px;
+    }
+    .cont05 .life .swiper-wrapper .swiper-slide div h3 {
+        font-size: 16px;
+        margin: 5px 0 15px;
+    }
+    .cont05 .life {
+        margin-top: 5px;
+    }
+    .cont06 .item_wrap {
+        margin-top: 5px;
+    }
+    /******* cont05 *******/
+    footer {
+        height: 380px;
+        background-image: url("../img/footer_bg_6.png")
+    }
+    footer .bg {
+        height: 220px;
+    }
+}
