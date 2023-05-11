@@ -14,7 +14,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
-        $(function () {
+        window.onload = function () {
+
             var swiper = new Swiper(".main_visual", {
                 spaceBetween: 30,
                 centeredSlides: true,
@@ -22,7 +23,7 @@
                     delay: 5500,
                     disableOnInteraction: false,
                 },
-            }); //.main visual 
+            }); //.main visual end
 
             var swiper = new Swiper(".life", {
                 slidesPerView: 1.5,
@@ -57,10 +58,93 @@
                         spaceBetween: 30,
                     }
                 },
-            }); //life
+            }); //.life end
 
-        });
+            //💚메뉴 열고 닫기 0 ~ 3💚
+            let body = document.querySelector('body');
+            let nav = document.querySelector('nav');
+            let menuList = nav.getElementsByTagName('li');
 
+            let menuOpen = document.querySelector('.menu_open');
+            let menuClose = document.querySelector('.menu_close');
+
+            nav.style.display = 'none';
+
+            menuOpen.onclick = function () {
+                if (nav.style.display == 'none') {
+                    nav.style.display = 'block';
+                    body.classList.add('on');
+                }
+            }
+            menuClose.onclick = function () {
+                if (nav.style.display == 'block')
+                    nav.style.display = 'none'
+                body.classList.remove('on');
+            }
+
+            for (let i = 0; i < 4; i++) {
+                menuList[i].onmouseenter = function () {
+                    if (nav.style.display == 'block') {
+                        nav.classList.add('menu_bg' + i);
+                        menuList[i].style.color = 'white';
+                    }
+                }
+                menuList[i].onmouseleave = function () {
+                    if (menuList[i].style.color == 'white') {
+                        nav.classList.remove('menu_bg' + i);
+                        menuList[i].style.color = 'rgb(255, 255, 255, 0.4)';
+                    }
+                }
+            }
+
+
+            //💚메뉴 열고 닫기 4 ~ 5💚
+            let nav2 = document.querySelector('.menu_video');
+            let menuList2 = nav2.getElementsByTagName('li');
+            let video = nav2.getElementsByTagName('source')[0];
+
+            nav2.style.display = 'none';
+
+            menuList2[4].onmouseenter = function () {
+                if (nav2.style.display == 'none') {
+                    nav2.style.display = 'block';
+                    nav.style.display = 'none';
+                    menuList2[4].style.color = 'white';
+                }
+            }
+            menuList2[4].onmouseleave = function () {
+                if (nav2.style.display == 'block') {
+                    nav2.style.display = 'none';
+                    nav.style.display = 'block';
+                    menuList2[4].style.color = 'rgb(255, 255, 255, 0.4)';
+                }
+            }
+            menuList2[5].onmouseenter = function () {
+                if (nav2.style.display == 'none') {
+                    nav2.style.display = 'block';
+                    menuList2[5].style.color = 'white';
+                    video.src = 'img/menu_runway.mp4';
+                }
+            }
+            menuList2[5].onmouseleave = function () {
+                if (nav2.style.display == 'block') {
+                    nav2.style.display = 'none';
+                    menuList2[5].style.color = 'rgb(255, 255, 255, 0.4)';
+                }
+            }
+
+            //💚스크롤시 메뉴 닫기💚
+            window.onscroll = function () {
+                let body = document.querySelector('body');
+                let nav = document.querySelector('nav');
+                let scrollBar = window.scrollY;
+
+                if (nav.offsetTop + 150 < scrollBar) {
+                    nav.style.display = 'none'
+                    body.classList.remove('on');
+                }
+            }
+        }
     </script>
 </head>
 
@@ -69,11 +153,11 @@
     <header>
         <div class="inner">
             <ul class="left">
-                <li>
+                <li class="menu_open">
                     <a href="#">
                         <img src="img/icon_menu.png" alt="" />
                     </a>
-                </li>
+                </li> <!-- .menu_open end -->
                 <li>
                     <a href="#">
                         <img src="img/icon_language.png" alt="" />
@@ -96,6 +180,58 @@
                 </ul>
             </div> <!-- .center-->
         </div> <!-- .inner end -->
+        <nav>
+            <div class="menu">
+                <div class="wrap">
+                    <div class="head">
+                        <figure class="logo">
+                            <a href="#">
+                                <img src="img/footer_logo_white.svg" alt="" />
+                            </a>
+                        </figure> <!-- .logo end -->
+                        <figure class="menu_close">
+                            <img src="img/icon_close.png" alt="" />
+                        </figure> <!-- .menu_close end -->
+                    </div> <!-- .head end -->
+                    <ul class="list">
+                        <li><a href="#">FASHION</a></li>
+                        <li><a href="#">BEAUTY</a></li>
+                        <li><a href="#">LIFESTYLE</a></li>
+                        <li><a href="#">CULTURE</a></li>
+                        <li><a href="#">VIDEO</a></li>
+                        <li><a href="#">RUNWAY</a></li>
+                    </ul> <!-- .list end -->
+                </div> <!-- .wrap end -->
+            </div> <!-- .menu end -->
+        </nav> <!-- .nav_none end -->
+
+        <nav class="menu_video">
+            <div class="menu">
+                <video autoplay muted loop>
+                    <source src="img/menu_video.mp4" type="video/mp4" />
+                </video>
+                <div class="wrap">
+                    <div class="head">
+                        <figure class="logo">
+                            <a href="#">
+                                <img src="img/footer_logo_white.svg" alt="" />
+                            </a>
+                        </figure> <!-- .logo end -->
+                        <figure class="menu_close">
+                            <img src="img/icon_close.png" alt="" />
+                        </figure> <!-- .menu_close end -->
+                    </div> <!-- .head end -->
+                    <ul class="list">
+                        <li><a href="#">FASHION</a></li>
+                        <li><a href="#">BEAUTY</a></li>
+                        <li><a href="#">LIFESTYLE</a></li>
+                        <li><a href="#">CULTURE</a></li>
+                        <li><a href="#">VIDEO</a></li>
+                        <li><a href="#">RUNWAY</a></li>
+                    </ul> <!-- .list end -->
+                </div> <!-- .wrap end -->
+            </div> <!-- .menu end -->
+        </nav> <!-- nav_video end -->
         <a href="#">
             <img src="img/SUBSCRIBE.png" alt="구독하기" />
         </a>
@@ -202,7 +338,7 @@
                             <div>
                                 <p>워치&주얼리</p>
                                 <h3>주얼리가 만들어내는 리듬감</h3>
-                                <span>2023.05.05  |  by 손기호</span>
+                                <span>2023.05.05 | by 손기호</span>
                             </div>
                         </a>
                     </div> <!-- .item end -->
@@ -214,7 +350,7 @@
                             <div>
                                 <p>패션 트렌드</p>
                                 <h3>당신이 알아야 할 브랜드_시대를 역주행하는 ‘보디’</h3>
-                                <span>2023.04.27  |  by 이선영</span>
+                                <span>2023.04.27 | by 이선영</span>
                             </div>
                         </a>
                     </div> <!-- .item end -->
@@ -226,7 +362,7 @@
                             <div>
                                 <p>아트</p>
                                 <h3>신세계의 아티스트 4인</h3>
-                                <span>2023.04.25  |  by 류가영</span>
+                                <span>2023.04.25 | by 류가영</span>
                             </div>
                         </a>
                     </div> <!-- .item end -->
@@ -287,7 +423,7 @@
                             <div>
                                 <p>뷰티 트렌드</p>
                                 <h3>It’s raining men, hallelujah</h3>
-                                <span>2019.11.28  |  by VOGUE</span>
+                                <span>2019.11.28 | by VOGUE</span>
                             </div>
                         </a>
                     </div> <!-- .item end -->
@@ -299,7 +435,7 @@
                             <div>
                                 <p>패션 화보</p>
                                 <h3>Z세대가 한복을 대하는 법</h3>
-                                <span>2022.10.07  |  by 김다혜</span>
+                                <span>2022.10.07 | by 김다혜</span>
                             </div>
                         </a>
                     </div> <!-- .item end -->
