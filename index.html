@@ -74,12 +74,14 @@
                 if (nav.style.display == 'none') {
                     nav.style.display = 'block';
                     body.classList.add('on');
+                    body.style.overflow = 'hidden';
                 }
             }
             menuClose.onclick = function () {
                 if (nav.style.display == 'block')
                     nav.style.display = 'none'
                 body.classList.remove('on');
+                body.style.overflow = 'visible';
             }
 
             for (let i = 0; i < 4; i++) {
@@ -126,6 +128,10 @@
                     runway.classList.remove('runway');
                 }
             }
+
+            //💚 모바일 반응형 메뉴 💚
+
+
         }
     </script>
 </head>
