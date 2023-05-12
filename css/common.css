@@ -452,7 +452,11 @@ span {
         font-size: 50px;
         margin-bottom: 70px;
     }
-
+    header nav .menu .wrap .head .menu_close {
+        width: 34px;
+        height: 34px;
+        line-height: 160px;
+    }
     /******* main_visual *******/
     .main_visual .inner .main>a {
         display: none;
@@ -789,6 +793,8 @@ span {
 
     header nav .menu .wrap .head .menu_close {
         width: 30px;
+        height: 30px;
+        line-height: 150px;
     }
 
     /******* main_visual *******/
@@ -1049,16 +1055,19 @@ span {
     header nav .menu .wrap .head {
         width: calc(100% - 100px);
     }
-
+    header nav .menu .wrap .list {
+        top: 170px;
+    }
     header nav .menu .wrap .list li {
         font-size: 36px;
     }
-
     header nav .menu .wrap .head .logo {
         width: 200px;
     }
     header nav .menu .wrap .head .menu_close {
         width: 24px;
+        height: 24px;
+        line-height: 120px;
     }
 
     /******* cont01 *******/
@@ -1167,7 +1176,10 @@ span {
     header .inner .left li:last-of-type {
         line-height: 125px;
     }
-
+    header nav .menu .wrap .list li {
+        font-size: 32px;
+        margin-bottom: 45px;
+    }
     header nav .menu .wrap .head {
         width: calc(100% - 80px);
     }
@@ -1176,6 +1188,8 @@ span {
     }
     header nav .menu .wrap .head .menu_close {
         width: 22px;
+        height: 22px;
+        line-height: 100px;
     }
 
     /******* main_visual *******/
@@ -1297,7 +1311,9 @@ span {
         width: 170px;
     }
     header nav .menu .wrap .head .menu_close {
-        width: 20px;
+        width: 18px;
+        height: 18px;
+        line-height: 80px;
     }
     /******* main_visual *******/
     .swiper-slide:nth-child(1) .inner .main figure::after {
