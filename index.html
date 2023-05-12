@@ -128,42 +128,6 @@
                     runway.classList.remove('runway');
                 }
             }
-
-            //💚 모바일 반응형 메뉴 💚
-            window.onresize = function (event) {
-                let innerWidth = window.innerWidth;
-                innerWidth < "640"
-                nav.style.display = 'none';
-
-                menuOpen.onclick = function () {
-                    if (nav.style.display == 'none') {
-                        nav.style.display = 'block';
-                        body.classList.add('on');
-                        body.style.overflow = 'hidden';
-                    }
-                }
-                menuClose.onclick = function () {
-                    if (nav.style.display == 'block')
-                        nav.style.display = 'none'
-                    body.classList.remove('on');
-                    body.style.overflow = 'visible';
-                }
-
-                for (let i = 0; i < menuList.length; i++) {
-                    menuList[i].onmouseenter = function () {
-                        if (nav.style.display == 'block') {
-                            nav.classList.add('menu_bg' + i);
-                            menuList[i].style.color = 'white';
-                        }
-                    }
-                    menuList[i].onmouseleave = function () {
-                        if (menuList[i].style.color == 'white') {
-                            nav.classList.remove('menu_bg' + i);
-                            menuList[i].style.color = 'rgb(255, 255, 255, 0.4)';
-                        }
-                    }
-                }
-            }
         }
     </script>
 </head>
