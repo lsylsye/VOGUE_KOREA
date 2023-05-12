@@ -430,7 +430,7 @@ span {
         font-size: 58px;
     }
 
-    /******* center *******/
+    /******* header *******/
     header .inner .left li {
         width: 24px;
         margin-right: 20px;
@@ -442,6 +442,15 @@ span {
 
     header .inner .center figure img {
         width: 240px;
+    }
+
+    header nav .menu .wrap .list {
+        top: 270px;
+    }
+
+    header nav .menu .wrap .list li {
+        font-size: 50px;
+        margin-bottom: 70px;
     }
 
     /******* main_visual *******/
@@ -525,47 +534,16 @@ span {
     .pashion {
         margin: 120px auto;
     }
-
-    .pashion .inner {
-        position: relative;
-        justify-content: space-between;
-    }
-
-    .pashion .inner .main {
-        position: relative;
-        margin-right: 20px;
-    }
-
-    .pashion .inner .main div {
-        position: relative;
-    }
-
-    .pashion .inner .main img {
-        height: 58vh;
-    }
-
     .pashion .inner .main h4 {
-        top: 58%;
         font-size: 64px;
     }
-
     .pashion .inner .list .item {
         margin-bottom: 30px;
     }
-
-    .pashion .inner .list .item figure {
-        height: 187px;
-    }
-
     .pashion .inner .list .item div h3 {
-        font-size: 24px;
+        font-size: 22px;
         margin: 5px 0 20px;
     }
-
-    .pashion .inner .list .item:nth-child(6)~.item {
-        display: none;
-    }
-
     .pashion .inner .list .item:nth-child(2),
     .pashion .inner .list .item:nth-child(4),
     .pashion .inner .list .item:nth-child(6),
@@ -573,42 +551,40 @@ span {
         margin-top: 0;
     }
 
-    .pashion .inner .list {
-        width: 65%;
-    }
-
     /******* cont05 *******/
     .cont05 {
         margin: 120px auto;
     }
-
     .cont05 h1 {
         letter-spacing: 5px;
         word-spacing: 5px;
     }
-
     .cont05 .inner a::after {
         top: 0.5px;
     }
-
     /******* cont06 ******/
     .cont06 {
         margin-top: 0;
     }
+
     .cont06 .inner a::after {
         top: 0.5px;
     }
+
     .cont06 .item_wrap .item div p {
         font-size: 16px;
     }
+
     .cont06 .item_wrap .item div h3 {
         font-size: 20px;
     }
+
     /******* footer *******/
     footer {
         height: 350px;
         background-image: url("");
     }
+
     footer .bg {
         height: 100%;
     }
@@ -683,21 +659,16 @@ span {
     /******* pashion *******/
     .pashion {
         margin: 100px auto;
-        height: 1060px;
     }
-
     .pashion .inner .main h4 {
         font-size: 56px;
     }
-
     .pashion .inner .list .item div p {
         font-size: 13px;
     }
-
     .pashion .inner .list .item div span {
         font-size: 13px;
     }
-
     .pashion .inner .list .item div h3 {
         font-size: 20px;
     }
@@ -801,6 +772,23 @@ span {
     header .inner .center figure img {
         width: 130px;
         line-height: 130px;
+    }
+
+    header nav .menu .wrap .list {
+        top: 200px;
+    }
+
+    header nav .menu .wrap .list li {
+        font-size: 44px;
+        margin-bottom: 50px;
+    }
+
+    header nav .menu .wrap .head .logo {
+        width: 240px;
+    }
+
+    header nav .menu .wrap .head .menu_close {
+        width: 30px;
     }
 
     /******* main_visual *******/
@@ -944,41 +932,34 @@ span {
 
     /******* pashion *******/
     .pashion {
-        height: 820px;
+        height: 1080px;
         margin: 80px auto;
     }
-
     .beauty {
-        height: 768px;
+        height: 1060px;
     }
-
     .pashion .inner {
         display: block;
         position: relative;
     }
-
     .pashion .inner .main {
         width: 100%;
         height: 260px;
         z-index: -9;
         margin-left: 0;
     }
-
     .pashion .inner .main h4 {
         top: 44%;
         font-size: 56px;
     }
-
     .pashion .inner .main div {
         display: flex;
     }
-
     .pashion .inner .main div img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-
     .pashion .inner .list {
         width: 94%;
         position: absolute;
@@ -986,7 +967,6 @@ span {
         left: 50%;
         transform: translateX(-50%);
     }
-
     .pashion .inner .list .item:nth-child(4)~.item {
         display: none;
     }
@@ -1007,17 +987,21 @@ span {
     .cont05 {
         margin: 80px auto;
     }
+
     .cont05 .life .swiper-wrapper .swiper-slide {
         width: 50%;
     }
+
     /******* cont06 *******/
     .cont06 .item_wrap .item {
         width: calc(100% / 2);
     }
+
     .cont06 .item_wrap .item:nth-child(3),
     .cont06 .item_wrap .item:nth-child(6) {
         display: none;
     }
+
     /******* footer *******/
     footer {
         height: 300px;
@@ -1062,6 +1046,21 @@ span {
         margin-top: 15px;
     }
 
+    header nav .menu .wrap .head {
+        width: calc(100% - 100px);
+    }
+
+    header nav .menu .wrap .list li {
+        font-size: 36px;
+    }
+
+    header nav .menu .wrap .head .logo {
+        width: 200px;
+    }
+    header nav .menu .wrap .head .menu_close {
+        width: 24px;
+    }
+
     /******* cont01 *******/
     .cont01 {
         height: 100%;
@@ -1085,28 +1084,36 @@ span {
 
     /******* pashion *******/
     .pashion {
-        height: 750px;
+        height: 900px;
+    }
+    .beauty {
+        height: 880px;
     }
     .pashion .inner .main {
         height: 240px;
     }
+
     .pashion .inner .main div {
         height: 100%;
     }
+
     .pashion .inner .main div::after {
         background-color: rgb(0, 0, 0, 0.5);
     }
+
     .pashion .inner .main h4 {
         top: 30%;
         font-size: 44px;
     }
+
     .pashion .inner .list {
         top: 48%;
     }
+
     .pashion .inner .list .item div h3 {
         font-size: 18px;
     }
-    
+
 
     /******* cont06 *******/
     .cont06 .item_wrap .item div p {
@@ -1133,93 +1140,132 @@ span {
     html {
         font-size: 36%;
     }
+
     html h1 {
         font-size: 36px;
     }
+
     /******* header *******/
     header {
         height: 110px;
     }
+
     header .inner .center ul {
         display: none;
     }
+
     header .inner .center figure img {
         width: 120px;
         line-height: 110px;
     }
+
     header .inner .left li {
         margin-right: 15px;
         line-height: 120px;
     }
+
     header .inner .left li:last-of-type {
         line-height: 125px;
     }
+
+    header nav .menu .wrap .head {
+        width: calc(100% - 80px);
+    }
+    header nav .menu .wrap .head .logo {
+        width: 180px;
+    }
+    header nav .menu .wrap .head .menu_close {
+        width: 22px;
+    }
+
     /******* main_visual *******/
     .main_visual .inner .main figure {
         height: 74vh;
     }
+
     .swiper-slide:nth-child(1) .inner .main figure::after {
         width: 329px;
         height: 100px;
     }
+
     .swiper-slide:nth-child(2) .inner .main figure::after {
         width: 232px;
         height: 100px;
     }
+
     .swiper-slide:nth-child(3) .inner .main figure::after {
         width: 273px;
         height: 100px;
     }
+
     /******* cont01 *******/
     .cont01 .inner .list h1 {
         margin-bottom: 35px;
     }
+
     .cont01 .inner .main {
         display: none;
     }
+
     .cont01 .inner .list .item_wrap {
         width: 100%;
     }
+
     .cont01 .inner .list .item_wrap .item figure {
         height: 35vh;
     }
+
     .cont01 .inner .list .item_wrap .item div {
         text-align: center;
     }
+
     .cont01 .inner .list .item_wrap .item p {
         font-size: 14px;
     }
+
     .cont01 .inner .list .item_wrap .item h3 {
         font-size: 28px;
         margin: 5px 0 15px;
     }
+
     .cont01 .inner .list .item_wrap .item span {
         font-size: 14px;
     }
+
     .cont01 .inner .list .item_wrap .item:first-child {
         margin-bottom: 40px;
     }
+
     /******* pashion *******/
+    .pashion {
+        height: 770px;
+    }
     .pashion .inner .main {
         height: 200px;
     }
+
     .pashion .inner .main h4 {
         top: 30%;
         font-size: 36px;
     }
+
     .cont05 h1 {
         margin-bottom: 10px;
     }
+
     .cont05 .life {
         margin-top: 15px;
     }
+
     /******* cont06 *******/
     .cont06 h1 {
         margin-bottom: 10px;
     }
+
     .cont06 .item_wrap {
         margin-top: 15px;
     }
+
     .cont06 .item_wrap .item {
         height: 140px;
     }
@@ -1227,6 +1273,7 @@ span {
     .cont06 .item_wrap .item figure {
         height: 100%;
     }
+
     /******* footer *******/
     footer {
         height: 240px;
@@ -1238,55 +1285,79 @@ span {
     html {
         font-size: 34%;
     }
+
     html h1 {
         line-height: 1.2;
+    }
+    /******* header *******/
+    header nav .menu .wrap .head {
+        width: calc(100% - 60px);
+    }
+    header nav .menu .wrap .head .logo {
+        width: 170px;
+    }
+    header nav .menu .wrap .head .menu_close {
+        width: 20px;
     }
     /******* main_visual *******/
     .swiper-slide:nth-child(1) .inner .main figure::after {
         width: 312px;
         height: 95px;
     }
+
     .swiper-slide:nth-child(2) .inner .main figure::after {
         width: 220px;
         height: 95px;
     }
+
     .swiper-slide:nth-child(3) .inner .main figure::after {
         width: 259px;
         height: 95px;
     }
+
     /******* cont01 *******/
     .cont01 .inner .list .item_wrap .item h3 {
         font-size: 20px;
     }
+
     /******* pashion *******/
     .pashion {
         height: 695px;
     }
+
     .beauty {
         height: 665px;
     }
+
     .pashion .inner .main {
         height: 180px;
     }
+
     .pashion .inner .main h4 {
         top: 28%;
     }
+
     .pashion .inner .main div {
         height: 100%;
     }
+
     .pashion .inner .list .item div h3 {
         font-size: 16px;
     }
+
     .pashion .inner .list .item figure {
         height: 170px;
     }
+
     .pashion .inner .list .item div p {
         margin-top: 10px;
     }
+
     /******* cont05 *******/
     .cont05 .life .swiper-wrapper .swiper-slide div p {
         margin-top: 10px;
     }
+
     .cont05 .life .swiper-wrapper .swiper-slide div h3 {
         font-size: 16px;
         margin: 5px 0 15px;
