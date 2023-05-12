@@ -370,6 +370,7 @@ header nav .menu .wrap .list li {
     top: 0;
     left: 0;
     margin-right: 60px;
+    cursor: pointer;
 }
 .pashion .inner .main img {
     width: 100%;
