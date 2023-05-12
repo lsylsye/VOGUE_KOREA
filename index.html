@@ -60,9 +60,9 @@
                 },
             }); //.life end
 
-            //💚메뉴 열고 닫기 0 ~ 3💚
+            //💚메뉴 열고 닫기 & 이미지 전환💚
             let body = document.querySelector('body');
-            let nav = document.querySelector('nav');
+            let nav = document.getElementsByTagName('nav')[0];
             let menuList = nav.getElementsByTagName('li');
 
             let menuOpen = document.querySelector('.menu_open');
@@ -97,39 +97,33 @@
                 }
             }
 
+            //💚 메뉴 동영상 전환 💚
+            let movie = nav.getElementsByClassName('video')[0];
+            let runway = nav.getElementsByClassName('video')[1];
 
-            //💚메뉴 열고 닫기 4 ~ 5💚
-            let nav2 = document.querySelector('.menu_video');
-            let menuList2 = nav2.getElementsByTagName('li');
-            let video = nav2.getElementsByTagName('source')[0];
 
-            nav2.style.display = 'none';
-
-            menuList2[4].onmouseenter = function () {
-                if (nav2.style.display == 'none') {
-                    nav2.style.display = 'block';
-                    nav.style.display = 'none';
-                    menuList2[4].style.color = 'white';
+            menuList[4].onmouseenter = function () {
+                if (nav.style.display == 'block') {
+                    menuList[4].style.color = 'white';
+                    movie.classList.add('movie');
                 }
             }
-            menuList2[4].onmouseleave = function () {
-                if (nav2.style.display == 'block') {
-                    nav2.style.display = 'none';
-                    nav.style.display = 'block';
-                    menuList2[4].style.color = 'rgb(255, 255, 255, 0.4)';
+            menuList[4].onmouseleave = function () {
+                if (menuList[4].style.color = 'white') {
+                    menuList[4].style.color = 'rgb(255, 255, 255, 0.4)';
+                    movie.classList.remove('movie');
                 }
             }
-            menuList2[5].onmouseenter = function () {
-                if (nav2.style.display == 'none') {
-                    nav2.style.display = 'block';
-                    menuList2[5].style.color = 'white';
-                    video.src = 'img/menu_runway.mp4';
+            menuList[5].onmouseenter = function () {
+                if (nav.style.display == 'block') {
+                    menuList[5].style.color = 'white';
+                    runway.classList.add('runway');
                 }
             }
-            menuList2[5].onmouseleave = function () {
-                if (nav2.style.display == 'block') {
-                    nav2.style.display = 'none';
-                    menuList2[5].style.color = 'rgb(255, 255, 255, 0.4)';
+            menuList[5].onmouseleave = function () {
+                if (menuList[5].style.color = 'white') {
+                    menuList[5].style.color = 'rgb(255, 255, 255, 0.4)';
+                    runway.classList.remove('runway');
                 }
             }
 
@@ -139,8 +133,8 @@
                 let nav = document.querySelector('nav');
                 let scrollBar = window.scrollY;
 
-                if (nav.offsetTop + 150 < scrollBar) {
-                    nav.style.display = 'none'
+                if (nav.offsetTop + 500 < scrollBar) {
+                    nav.style.display = 'none';
                     body.classList.remove('on');
                 }
             }
@@ -182,6 +176,16 @@
         </div> <!-- .inner end -->
         <nav>
             <div class="menu">
+                <div class="video">
+                    <video autoplay muted loop>
+                        <source src="img/menu_video.mp4" type="video/mp4" />
+                    </video>
+                </div> <!-- .video end -->
+                <div class="video">
+                    <video autoplay muted loop>
+                        <source src="img/menu_runway.mp4" type="video/mp4" />
+                    </video>
+                </div> <!-- .video end -->
                 <div class="wrap">
                     <div class="head">
                         <figure class="logo">
@@ -203,35 +207,8 @@
                     </ul> <!-- .list end -->
                 </div> <!-- .wrap end -->
             </div> <!-- .menu end -->
-        </nav> <!-- .nav_none end -->
+        </nav> <!-- none end -->
 
-        <nav class="menu_video">
-            <div class="menu">
-                <video autoplay muted loop>
-                    <source src="img/menu_video.mp4" type="video/mp4" />
-                </video>
-                <div class="wrap">
-                    <div class="head">
-                        <figure class="logo">
-                            <a href="#">
-                                <img src="img/footer_logo_white.svg" alt="" />
-                            </a>
-                        </figure> <!-- .logo end -->
-                        <figure class="menu_close">
-                            <img src="img/icon_close.png" alt="" />
-                        </figure> <!-- .menu_close end -->
-                    </div> <!-- .head end -->
-                    <ul class="list">
-                        <li><a href="#">FASHION</a></li>
-                        <li><a href="#">BEAUTY</a></li>
-                        <li><a href="#">LIFESTYLE</a></li>
-                        <li><a href="#">CULTURE</a></li>
-                        <li><a href="#">VIDEO</a></li>
-                        <li><a href="#">RUNWAY</a></li>
-                    </ul> <!-- .list end -->
-                </div> <!-- .wrap end -->
-            </div> <!-- .menu end -->
-        </nav> <!-- nav_video end -->
         <a href="#">
             <img src="img/SUBSCRIBE.png" alt="구독하기" />
         </a>
