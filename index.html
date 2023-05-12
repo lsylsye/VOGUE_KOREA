@@ -126,18 +126,6 @@
                     runway.classList.remove('runway');
                 }
             }
-
-            //💚스크롤시 메뉴 닫기💚
-            window.onscroll = function () {
-                let body = document.querySelector('body');
-                let nav = document.querySelector('nav');
-                let scrollBar = window.scrollY;
-
-                if (nav.offsetTop + 500 < scrollBar) {
-                    nav.style.display = 'none';
-                    body.classList.remove('on');
-                }
-            }
         }
     </script>
 </head>
