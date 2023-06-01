@@ -268,15 +268,11 @@ header nav .menu .wrap .list li {
 /*******💌cont01 cont02💌*******/
 .cont01 {
     margin: 200px auto;
-    height: 700px;
-}
-.cont02 {
-    height: 734px;
+    height: auto;
 }
 .cont01 .inner {
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
 .cont01 .inner .list {
     width: 70%;
@@ -315,10 +311,6 @@ header nav .menu .wrap .list li {
 }
 .cont01 .inner .main {
     width: 27%;
-    height: 45vw;
-    position: absolute;
-    top: -3%;
-    right: 0;
 }
 .cont01 .inner .main .item {
     width: 100%;
@@ -343,15 +335,6 @@ header nav .menu .wrap .list li {
 }
 .cont01 .inner .main .item span {
     font-size: 1.8rem;
-}
-.cont02 {
-    display: flex;
-}
-.cont02 .inner {
-    justify-content: flex-end;
-}
-.cont02 .inner .main {
-    left: 0;
 }
 
 /*******💌pashion💌*******/
@@ -436,6 +419,7 @@ header nav .menu .wrap .list li {
 }
 
 /*******💌beauty💌*******/
+
 
 .beauty .inner .list {
     order: -1;
